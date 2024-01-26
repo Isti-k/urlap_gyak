@@ -1,0 +1,17 @@
+body{
+    background-color: wheat;
+    margin: auto;
+}
+input{
+    margin: 5px;
+}
+input[type=text]:focus{
+    background-color: lightblue;
+}
+label{
+    width: 100px;
+    display: block;
+}
+{
+    margin: auto;
+}
