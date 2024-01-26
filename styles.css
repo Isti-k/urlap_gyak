@@ -11,6 +11,32 @@ label{
     width: 100px;
     display: block;
 }
-main{
+fieldset{
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "" "m"
+    "" "t"
+    "" "ev"
+    "" "esz";
+}
+input[type=submit]:focus{
+    margin: auto;
+}
+#kuldes{
+    margin: auto;
+    grid-area: k;
+}
+#evjarat{
+    grid-area: ev;
+}
+#evjarat_szam{
+    grid-area: esz;
+}
+#tipus{
+    grid-area: t;
+}
+#marka{
+    grid-area: m;
 }

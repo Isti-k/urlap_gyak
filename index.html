@@ -7,21 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <h1>Autók</h1>
-        <form action="#" method="get">
-            <fieldset>
-                <legend>Autó adatai</legend>
-                <label for="k_marka">kedvenc márka:</label>
-                <input type="text" id="k_marka" name="marka" value="Honda"><br>
-                <label for="k_marka">Típus:</label>
-                <input type="text" id="tipus" name="tipus" value="Civic"><br>
-                <label for="evjarat">Évjárat:</label>
-                <input type="range" name="evjarat" min="1804" max="2024" id="evjarat" oninput="this.form.evjarat_szam.value = this.value">
-                <input type="number" name="evjarat_szam" min="1804" max="2024" oninput="this.form.evjarat.value = this.value"><br>
-                <input type="submit" value="küldés">
-            </fieldset>
-        </form>
-    </main>
+    <h1>Autók</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Autó adatai</legend>
+            <label for="k_marka">kedvenc márka:</label>
+            <input type="text" id="k_marka" name="marka" value="Honda"><br>
+            <label for="k_marka">Típus:</label>
+            <input type="text" id="tipus" name="tipus" value="Civic"><br>
+            <label for="evjarat">Évjárat:</label>
+            <input type="range" name="evjarat" min="1804" max="2024" id="evjarat" oninput="this.form.evjarat_szam.value = this.value">
+            <input type="number" id="evjarat_szam" name="evjarat_szam" min="1804" max="2024" oninput="this.form.evjarat.value = this.value"><br>
+            <input type="submit" value="küldés" id="kuldes">
+        </fieldset>
+    </form>
 </body>
 </html>
