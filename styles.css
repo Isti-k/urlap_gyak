@@ -1,6 +1,5 @@
 body{
     background-color: wheat;
-    margin: auto;
 }
 input{
     margin: 5px;
@@ -12,6 +11,6 @@ label{
     width: 100px;
     display: block;
 }
-{
+main{
     margin: auto;
 }
